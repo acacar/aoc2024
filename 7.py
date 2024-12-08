@@ -60,5 +60,5 @@ with open("7.in") as f:
     input = f.read()
 
 
-print(f"Part 1: {part1(process(input))}")
-print(f"Part 2: {part2(process(input))}")
+print(f"Day 7 Part 1: {part1(process(input))}")
+print(f"Day 7 Part 2: {part2(process(input))}")
