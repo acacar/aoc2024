@@ -122,5 +122,5 @@ def part2(grid):
 
 if __name__ == "__main__":
     grid = load_input("4.in")
-    print(f"Part 1: {part1(grid)}")
-    print(f"Part 2: {part2(grid)}")
+    print(f"Day 4 Part 1: {part1(grid)}")
+    print(f"Day 4 Part 2: {part2(grid)}")

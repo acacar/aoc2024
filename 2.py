@@ -58,5 +58,5 @@ def check_report(report):
 
 
 
-print(f"Number of safe reports (part 1): {part1(load_input("2.in"))}")
-print(f"Number of safe reports (part 2): {part2(load_input("2.in"))}")
+print(f"Day 2 Part 1: {part1(load_input('2.in'))}")
+print(f"Day 2 Part 2: {part2(load_input('2.in'))}")

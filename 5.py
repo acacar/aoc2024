@@ -110,6 +110,5 @@ part1(*process(example))
 with open("5.in") as f:
     intxt = f.read()
     
-print(part1(*process(intxt)))
-
-print(part2(*process(intxt)))
+print(f"Day 5 Part 1: {part1(*process(intxt))}")
+print(f"Day 5 Part 2: {part2(*process(intxt))}")

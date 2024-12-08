@@ -8,7 +8,7 @@ def part_1():
     matches = re.findall(r"mul\((\d+?),(\d+?)\)", input)
     for i in matches:
             total += int(i[0]) * int(i[1])
-    print(f"Part 1: {total}")
+    print(f"Day 3 Part 1: {total}")
 
 
 def part_2():
@@ -24,7 +24,7 @@ def part_2():
             enabled = True
         elif enabled:
             total += int(i[0]) * int(i[1])
-    print(f"Part 2: {total}")
+    print(f"Day 3 Part 2: {total}")
 
 part_1()
 part_2()

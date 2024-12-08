@@ -100,8 +100,8 @@ def part2(map, start, direction):
 with open("6.in") as f:
     intxt = f.read()
 
-print(f"Part 1: {part1(*process_map(intxt))}")
+print(f"Day 6 Part 1: {part1(*process_map(intxt))}")
 
-print("Part 2 (might take a while, suboptimal solution): ", end="")
+print("Day 6 Part 2 (might take a while, suboptimal solution): ", end="")
 sys.stdout.flush()
 print(part2(*process_map(intxt)))

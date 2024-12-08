@@ -18,7 +18,7 @@ def part1():
     total = 0
     for n1, n2 in zip(list1, list2):
         total += abs(n1-n2)
-    print(f"Total distance is {total}")
+    print(f"Day 1 Part 1: {total}")
 
 def part2():
     list1, list2 = load_input("1.in")
@@ -26,7 +26,7 @@ def part2():
     total = 0
     for n1 in list1:
         total += n1 * c[n1]
-    print(f"Similarity is {total}")
+    print(f"Day 1 Part 2: {total}")
 
 part1()
 part2()
