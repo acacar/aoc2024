@@ -103,5 +103,5 @@ def part2(map):
 with open("12.in", "r") as f:
     intxt = f.read()
 
-print(part1(process(intxt)))
-print(part2(process(intxt)))
+print(f"Day 12 Part 1: {part1(process(intxt))}")
+print(f"Day 12 Part 2: {part2(process(intxt))}")

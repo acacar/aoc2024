@@ -74,5 +74,5 @@ def part_2(map, starts, ends):
 with open("10.in") as f:
     intxt = f.read()
 
-print(f"Part 1: {part_1(*process(intxt))}")
-print(f"Part 2: {part_2(*process(intxt))}")
+print(f"Day 10 Part 1: {part_1(*process(intxt))}")
+print(f"Day 10 Part 2: {part_2(*process(intxt))}")

@@ -49,5 +49,5 @@ def part_2(stones):
 with open("11.in", "r") as f:
     intxt = f.read()
 
-print("Part 1: ", part_1(process(intxt)))
-print("Part 2: ", part_2(process(intxt)))
+print("Day 11 Part 1: ", part_1(process(intxt)))
+print("Day 11 Part 2: ", part_2(process(intxt)))

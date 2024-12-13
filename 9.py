@@ -97,9 +97,5 @@ def part_2(span_sizes):
 with open("9.in") as f:
     intxt = f.read()
 
-print(f"Part 1: {part_1(process(intxt))}")
-
-with open("9.in") as f:
-    intxt = f.read()
-
-print(f"Part 2: {part_2(process(intxt))}")
+print(f"Day 9 Part 1: {part_1(process(intxt))}")
+print(f"Day 9 Part 2: {part_2(process(intxt))}")
